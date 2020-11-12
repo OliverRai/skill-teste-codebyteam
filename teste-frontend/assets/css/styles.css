@@ -22,8 +22,8 @@
     flex-direction: column;
     background: var(--color-background);
     color: var(--color-font);  
-    font: 700 1.2rem Poppins;
-    background: linear-gradient(rgba(43, 122, 226, 0.5),rgba(43, 122, 226,.50)100%) ,url('../images/mountain-1209497_1920.jpg');
+    font: 600 1.2rem Poppins;
+    background: linear-gradient(rgba(15,115,255, 0.5),rgba(15,115,255, 0.5)100%) ,url('../images/mountain-1209497_1920.jpg');
     background-repeat: round;
 }
 
@@ -141,7 +141,7 @@
 .analysis{
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0,.70)100%) ,url('../images/daily.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0,.70)100%) ,url('../images/analys.jpg');
     background-repeat: round;
     color: var(--color-font); 
     text-align: end;
