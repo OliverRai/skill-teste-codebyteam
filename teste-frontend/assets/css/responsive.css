@@ -215,6 +215,11 @@
         border-style: none;
         color: var(--color-font-black);
         font: 700 1.2rem Poppins;
+        transition: background 1.2s;
+    }
+
+    .btn-see-bow:hover{
+        background: #45b0be	;
     }
     
     .cat-container{
@@ -386,6 +391,8 @@
         width: 170px;
         flex-direction: column;  
         font: 700 1rem Poppins;
+        -webkit-transition: all 200ms ease-in;
+        transition: all 200ms ease-in;
     }
     
     .one .top{
@@ -403,6 +410,11 @@
         align-items: flex-end;
         text-align: left
     }
+
+    .one:hover{
+        box-shadow: 0px 0px 50px #000000;
+        transform: scale(1.1);
+      }
     
     .two {
         grid-area: two;
@@ -410,6 +422,8 @@
         width: 170px;
         flex-direction: column;  
         font: 700 1rem Poppins;
+        -webkit-transition: all 200ms ease-in;
+        transition: all 200ms ease-in; 
     }
     
     .two .top{
@@ -427,6 +441,11 @@
         text-align: left;
         align-items: flex-end;
     }
+
+    .two:hover{
+        box-shadow: 0px 0px 50px #000000;
+        transform: scale(1.1);
+      }
     
     
     .three {
@@ -435,6 +454,8 @@
         width: 170px;
         flex-direction: column;  
         font: 700 1rem Poppins;
+        -webkit-transition: all 200ms ease-in;
+        transition: all 200ms ease-in;
     }
     
     .three .top{
@@ -453,12 +474,19 @@
         align-items: flex-end;
     }
     
+    .three:hover{
+        box-shadow: 0px 0px 50px #000000;
+        transform: scale(1.1);
+      }
+
     .four {
         grid-area: four;
         color: var(--color-font);
         width: 170px;
         flex-direction: column;  
         font: 700 1rem Poppins;
+        -webkit-transition: all 200ms ease-in;
+        transition: all 200ms ease-in;
     }
     
     .four .top{
@@ -476,6 +504,11 @@
         text-align: left;
         align-items: flex-end;
     }
+
+    .four:hover{
+        box-shadow: 0px 0px 50px #000000;
+        transform: scale(1.1);
+      }
     
     .five {
         grid-area: five;
@@ -483,6 +516,8 @@
         width: 170px;
         flex-direction: column;  
         font: 700 1rem Poppins;
+        -webkit-transition: all 200ms ease-in;
+        transition: all 200ms ease-in;
     }
     
     .five .top{
@@ -500,6 +535,11 @@
         text-align: left;
         align-items: flex-end;
     }
+
+    .five:hover{
+        box-shadow: 0px 0px 50px #000000;
+        transform: scale(1.1);
+      }
     
     .six {
         grid-area: six;
@@ -507,6 +547,8 @@
         width: 170px;
         flex-direction: column;  
         font: 700 1rem Poppins;
+        -webkit-transition: all 200ms ease-in;
+        transition: all 200ms ease-in;
     }
     
     .six .top{
@@ -524,5 +566,10 @@
         text-align: left;
         align-items: flex-end;
     }
+
+    .six:hover{
+        box-shadow: 0px 0px 50px #000000;
+        transform: scale(1.1);
+      }
     
 }
