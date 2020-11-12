@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #FFF;
+    color: var(--color-font);
     
 }
 .first-container{
@@ -20,8 +20,8 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    background: #0f73b9;
-    color: #FFF;  
+    background: var(--color-background);
+    color: var(--color-font);  
     font: 700 1.2rem Poppins;
     background: linear-gradient(rgba(43, 122, 226, 0.5),rgba(43, 122, 226,.50)100%) ,url('../images/mountain-1209497_1920.jpg');
     background-repeat: round;
@@ -37,7 +37,7 @@
     padding: 0.8rem;
     width: 300px;
     border-style: none;
-    background: #FFF;
+    background: var(--color-font); 
     font: 700 1.2rem Poppins;
 }
 
@@ -54,7 +54,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    color: #000;  
+    color: var(--color-font-black);  
     font: 700 1.8rem Poppins;
     margin-bottom: 5rem
 }
@@ -76,7 +76,7 @@
     flex-direction: column;
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0,.70)100%) ,url('../images/nature.jpg');
     background-repeat: round;
-    color: #FFF;
+    color: var(--color-font); 
     align-items: flex-start;
     padding: 1rem;
     width: 40%;
@@ -95,7 +95,7 @@
     flex-direction: column;
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0,.70)100%) ,url('../images/daily.jpg');
     background-repeat: round;
-    color: #FFF;
+    color: var(--color-font); 
     align-items: flex-start;
     padding: 1rem;
     width: 57%;
@@ -114,7 +114,7 @@
     flex-direction: column;
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0,.70)100%) ,url('../images/together.jpg');
     background-repeat: round;
-    color: #FFF;
+    color: var(--color-font); 
     width: 100%;
     height: 250px;
     justify-content: center;
@@ -143,7 +143,7 @@
     flex-direction: column;
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0,.70)100%) ,url('../images/daily.jpg');
     background-repeat: round;
-    color: #FFF;
+    color: var(--color-font); 
     text-align: end;
     padding: 1rem;
     width: 57%;
@@ -162,7 +162,7 @@
     flex-direction: column;
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0,.70)100%) ,url('../images/pic.jpg');
     background-repeat: round;
-    color: #FFF;
+    color: var(--color-font); 
     align-items: flex-start;
     padding: 1rem;
     width: 40%;
@@ -179,7 +179,7 @@
 .footer-title{
     position: absolute;
     padding: 1rem;
-    color: #383838;
+    color: var(--color-font-title-footer);
     line-height: 3rem;
 }
 
@@ -196,7 +196,7 @@
     align-items: flex-end;
     display: grid;
     justify-content: space-between;
-    background: #f4f4f4;
+    background: var(--color-background-div-footer);
     grid-template-columns: repeat (6 1fr);
     grid-template-areas:
         "one two three four five six";
@@ -204,7 +204,7 @@
 
 .one {
     grid-area: one;
-    color: #FFF;
+    color:var(--color-font); 
     display: flex;
     width: 70px;
     flex-direction: column;  
@@ -213,13 +213,13 @@
 
 .one .top{
     height: 100px;
-    background: #005499;
+    background: var(--color-background-div-graphic-top);
     padding: 0.5rem;
 }
 .one .end{
     height: 100px;
     display: flex;
-    background: #0088ed;
+    background: var(--color-background-div-graphic-end);
     padding: 0.5rem;
     font: 400 0.5rem Poppins;
     display: flex;
@@ -229,7 +229,7 @@
 
 .two {
     grid-area: two;
-    color: #FFF;
+    color: var(--color-font); 
     display: flex;
     width: 70px;
     flex-direction: column;  
@@ -238,13 +238,13 @@
 
 .two .top{
     height: 100px;
-    background: #005499;
+    background: var(--color-background-div-graphic-top);
     padding: 0.5rem;
 }
 .two .end{
     height: 150px;
     display: flex;
-    background: #0088ed;
+    background: var(--color-background-div-graphic-end);
     padding: 0.5rem;
     font: 400 0.5rem Poppins;
     display: flex;
@@ -254,7 +254,7 @@
 
 .three {
     grid-area: three;
-    color: #FFF;
+    color: var(--color-font); 
     display: flex;
     width: 70px;
     flex-direction: column;  
@@ -263,13 +263,13 @@
 
 .three .top{
     height: 100px;
-    background: #005499;
+    background: var(--color-background-div-graphic-top);
     padding: 0.5rem;
 }
 .three .end{
     height: 200px;
     display: flex;
-    background: #0088ed;
+    background: var(--color-background-div-graphic-end);
     padding: 0.5rem;
     font: 400 0.5rem Poppins;
     display: flex;
@@ -279,7 +279,7 @@
 
 .four {
     grid-area: four;
-    color: #FFF;
+    color: var(--color-font); 
     display: flex;
     width: 70px;
     flex-direction: column;  
@@ -288,13 +288,13 @@
 
 .four .top{
     height: 100px;
-    background: #005499;
+    background: var(--color-background-div-graphic-top);
     padding: 0.5rem;
 }
 .four .end{
     height: 250px;
     display: flex;
-    background: #0088ed;
+    background: var(--color-background-div-graphic-end);
     padding: 0.5rem;
     font: 400 0.5rem Poppins;
     display: flex;
@@ -304,7 +304,7 @@
 
 .five {
     grid-area: five;
-    color: #FFF;
+    color: var(--color-font); 
     display: flex;
     width: 70px;
     flex-direction: column;  
@@ -313,13 +313,13 @@
 
 .five .top{
     height: 100px;
-    background: #005499;
+    background: var(--color-background-div-graphic-top);
     padding: 0.5rem;
 }
 .five .end{
     height: 300px;
     display: flex;
-    background: #0088ed;
+    background: var(--color-background-div-graphic-end);
     padding: 0.5rem;
     font: 400 0.5rem Poppins;
     display: flex;
@@ -329,7 +329,7 @@
 
 .six {
     grid-area: six;
-    color: #FFF;
+    color: var(--color-font); 
     display: flex;
     width: 70px;
     flex-direction: column;  
@@ -338,13 +338,13 @@
 
 .six .top{
     height: 100px;
-    background: #005499;
+    background: var(--color-background-div-graphic-top);
     padding: 0.5rem;
 }
 .six .end{
     height: 350px;
     display: flex;
-    background: #0088ed;
+    background: var(--color-background-div-graphic-end);
     padding: 0.5rem;
     font: 400 0.5rem Poppins;
     display: flex;
