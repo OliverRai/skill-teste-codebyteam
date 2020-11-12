@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background: #0f73b9;
+    color: #FFF;  
+    font: 700 1.6rem Poppins;
+
+    background: linear-gradient(rgba(15, 115, 185, 0.5),rgba(15, 115, 185,.50)100%) ,url('./images/mountain-1209497_1920.jpg');
+    background-repeat: round;
+}
+
+.first-container h1{
+    max-width: 600px;
+    text-align: center;
+}
+
+.btn-see-bow{
+    padding: 1rem;
+    border-style: none;
+    font: 500 1.2rem Poppins;
+}
