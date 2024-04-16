@@ -1,7 +1,7 @@
 
 # Skill test
 
-Esse projeto contém um frontend com html e css put
+Esse projeto contém um frontend com html e css puro
 
 
 ![image](https://github.com/OliverRai/skill-teste-codebyteam/assets/45560284/7ce455ab-721d-464f-9c06-f7b0872c6809)
